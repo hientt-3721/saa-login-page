@@ -82,7 +82,7 @@ export default function LanguageSelector(): ReactNode {
   function handleTriggerKeyDown(e: React.KeyboardEvent) {
     if (e.key === 'Enter' || e.key === ' ') {
       e.preventDefault();
-      isOpen ? closeDropdown() : openDropdown();
+      if (isOpen) { closeDropdown(); } else { openDropdown(); }
     } else if (e.key === 'ArrowDown') {
       e.preventDefault();
       openDropdown();
