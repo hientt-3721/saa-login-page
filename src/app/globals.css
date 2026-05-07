@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+/* ============================================================
+   Design Tokens — Login Screen (GzbNeVGJHz)
+   Source: .momorph/specs/GzbNeVGJHz-Login/design-style.md
+   All values MUST be consumed via these variables in components.
+   ============================================================ */
+
+:root {
+  /* Colors */
+  --color-bg-page: #00101a;
+  --color-header-bg: rgba(11, 15, 18, 0.8);
+  --color-lang-dropdown-bg: rgba(11, 15, 18, 0.95);
+  --color-lang-item-hover-bg: rgba(255, 255, 255, 0.08);
+  --color-overlay-h: linear-gradient(
+    90deg,
+    #00101a 0%,
+    #00101a 25.41%,
+    rgba(0, 16, 26, 0) 100%
+  );
+  --color-overlay-v: linear-gradient(
+    0deg,
+    #00101a 22.48%,
+    rgba(0, 19, 32, 0) 51.74%
+  );
+  --color-btn-login-bg: #ffea9e;
+  --color-btn-login-text: #00101a;
+  --color-text-on-dark: #ffffff;
+  --color-divider: #2e3940;
+  --shadow-login-btn-hover: 0 4px 16px rgba(255, 234, 158, 0.35);
+
+  /* Typography — font sizes */
+  --font-size-lang-label: 16px;
+  --font-size-hero-body: 20px;
+  --font-size-btn-login: 22px;
+  --font-size-footer: 16px;
+
+  /* Typography — line heights */
+  --line-height-lang-label: 24px;
+  --line-height-hero-body: 40px;
+  --line-height-btn-login: 28px;
+  --line-height-footer: 24px;
+
+  /* Typography — letter spacing */
+  --letter-spacing-lang-label: 0.15px;
+  --letter-spacing-hero-body: 0.5px;
+  --letter-spacing-btn-login: 0px;
+
+  /* Spacing */
+  --spacing-page-padding-x: 144px;
+  --spacing-page-padding-y-header: 12px;
+  --spacing-page-padding-y-hero: 96px;
+  --spacing-hero-stack-gap: 80px;
+  --spacing-hero-content-gap: 24px;
+  --spacing-btn-login-padding-y: 16px;
+  --spacing-btn-login-padding-x: 24px;
+  --spacing-btn-login-gap: 8px;
+  --spacing-lang-btn-padding: 16px;
+  --spacing-lang-btn-gap: 2px;
+  --spacing-flag-label-gap: 4px;
+  --spacing-footer-padding-x: 90px;
+  --spacing-footer-padding-y: 40px;
+
+  /* Hero layout dimensions (Frame 487 / Frame 550) */
+  --hero-kv-height: 200px;
+  --hero-kv-image-width: 451px;
+  --hero-content-frame-width: 496px;
+  --hero-content-frame-pl: 16px;
+
+  /* Login button fixed dimensions */
+  --width-btn-login: 305px;
+  --height-btn-login: 60px;
+
+  /* Border & Radius */
+  --radius-lang-btn: 4px;
+  --radius-login-btn: 8px;
+  --border-footer-top: 1px solid #2e3940;
+}
+
+/* Base */
+html,
+body {
+  height: 100%;
+  background-color: var(--color-bg-page);
+  color: var(--color-text-on-dark);
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}

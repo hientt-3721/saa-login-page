@@ -1,0 +1,18 @@
+{
+  "login": {
+    "heroLine1": "Bắt đầu hành trình của bạn cùng SAA 2025.",
+    "heroLine2": "Đăng nhập để khám phá!",
+    "buttonLabel": "LOGIN With Google",
+    "footer": "Bản quyền thuộc về Sun* © 2025",
+    "error": {
+      "unauthorized": "Tài khoản không thuộc Sun*. Vui lòng đăng nhập bằng email @sun-asterisk.com.",
+      "sessionExpired": "Phiên đăng nhập đã hết hạn. Vui lòng thử lại.",
+      "oauthFailed": "Đăng nhập thất bại. Vui lòng thử lại.",
+      "popupBlocked": "Trình duyệt đã chặn cửa sổ đăng nhập. Nhấn nút dưới để đăng nhập qua trang mới."
+    },
+    "lang": {
+      "vi": "VN",
+      "en": "EN"
+    }
+  }
+}

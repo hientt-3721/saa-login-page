@@ -1,0 +1,50 @@
+{
+  "name": "saa-project-aidd",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint . --ext .ts,.tsx",
+    "format": "prettier --write .",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:coverage": "vitest run --coverage",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "next": "15.3.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0",
+    "@supabase/supabase-js": "^2.49.4",
+    "@supabase/ssr": "^0.6.1",
+    "next-intl": "^3.26.5",
+    "zod": "^3.24.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "typescript": "^5",
+    "tailwindcss": "^4",
+    "@tailwindcss/postcss": "^4",
+    "eslint": "^9",
+    "eslint-config-next": "15.3.2",
+    "@typescript-eslint/eslint-plugin": "^8",
+    "@typescript-eslint/parser": "^8",
+    "eslint-plugin-react": "^7",
+    "eslint-plugin-react-hooks": "^5",
+    "prettier": "^3",
+    "vitest": "^2",
+    "@vitejs/plugin-react": "^4",
+    "@vitest/coverage-v8": "^2",
+    "@testing-library/react": "^16",
+    "@testing-library/user-event": "^14",
+    "@testing-library/jest-dom": "^6",
+    "vitest-localstorage-mock": "^0.1.2",
+    "jsdom": "^25",
+    "@playwright/test": "^1.50.1"
+  }
+}

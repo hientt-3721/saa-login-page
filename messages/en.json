@@ -1,0 +1,18 @@
+{
+  "login": {
+    "heroLine1": "Begin your journey with SAA 2025.",
+    "heroLine2": "Log in to explore!",
+    "buttonLabel": "LOGIN With Google",
+    "footer": "Copyright belongs to Sun* © 2025",
+    "error": {
+      "unauthorized": "Account is not a Sun* account. Please log in with your @sun-asterisk.com email.",
+      "sessionExpired": "Your session has expired. Please try again.",
+      "oauthFailed": "Login failed. Please try again.",
+      "popupBlocked": "Your browser blocked the login popup. Click below to log in in a new page."
+    },
+    "lang": {
+      "vi": "VN",
+      "en": "EN"
+    }
+  }
+}
